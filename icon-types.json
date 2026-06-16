@@ -1,1 +1,10 @@
-[{"key":"MzIuMDE1IiB5PSIyMTQuODQi","plain":"32.015","name":"2 ezer Ft alatt"},{"key":"mODIuNTUzIDMzOC44NWE2","plain":"82.553","name":"2 - 3 ezer Ft között"},{"key":"ODAuNjYzIgaGVpZ2h0","plain":"80.663","name":"3 - 4 ezer Ft között"},{"key":"mNTQuMzAxIDEyOS42NWE","plain":"54.301","name":"4 - 5 ezer Ft között"},{"key":"bTE1NyAzMzguODVh","plain":"157 338.85","name":"5 - 6 ezer Ft között"},{"key":"NTcuNzM1IgaGVpZ2h0","plain":"57.735","name":"6 - 8 ezer Ft között"},{"key":"NjcuMzE3IgaGVpZ2h0","plain":"67.317","name":"8,5 ezer Ft felett"},{"key":"LTUwLjI3MSAtMTgxLjc3","plain":"-50.271","name":"Nem fogad külsős vendéget Zárva tart NINCS ADAT"}]
+[
+    { "key": "MzIuMDE1IiB5PSIyMTQuODQi", "plain": "32.015", "name": "2 ezer Ft alatt" },
+    { "key": "mODIuNTUzIDMzOC44NWE2", "plain": "82.553", "name": "2 - 3 ezer Ft között" },
+    { "key": "ODAuNjYzIgaGVpZ2h0", "plain": "80.663", "name": "3 - 4 ezer Ft között" },
+    { "key": "mNTQuMzAxIDEyOS42NWE", "plain": "54.301", "name": "4 - 5 ezer Ft között" },
+    { "key": "bTE1NyAzMzguODVh", "plain": "157 338.85", "name": "5 - 6 ezer Ft között" },
+    { "key": "NTcuNzM1IgaGVpZ2h0", "plain": "57.735", "name": "6 - 8 ezer Ft között" },
+    { "key": "NjcuMzE3IgaGVpZ2h0", "plain": "67.317", "name": "8,5 ezer Ft felett" },
+    { "key": "LTUwLjI3MSAtMTgxLjc3", "plain": "-50.271", "name": "Nem fogad külsős vendéget Zárva tart NINCS ADAT" }
+]
