@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang=hu>
+<head>
+<meta charset=UTF-8>
+<meta name=viewport content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+<title>MAGYAR GYÓGYFÜRDŐK</title>
+<link rel=stylesheet href=https://unpkg.com/leaflet@1.9.4/dist/leaflet.css>
+<link rel=stylesheet href=style.css>
+</head>
+<body>
+<a href=#map class=skip-link>Ugrás a térképhez</a>
+<header class=app-header>
+<button class=logo-box id=logo-btn onclick='openOverlay("list-overlay",this)' aria-haspopup=dialog aria-expanded=false aria-label="Fürdők listájának megnyitása">MAGYAR GYÓGYFÜRDŐK</button>
+<div class=search-area>
+<div class=search-wrapper>
+<input id=bathSearch class=brutal-input placeholder=KERESÉS... aria-label="Fürdő keresése">
+</div>
+<div class=quick-filters>
+<button type=button id=btn-geolocation class=filter-btn>KÖZELBEN</button>
+<button type=button id=filter-cheap class=filter-btn aria-pressed=false>3000 FT ALATT</button>
+<button type=button id=filter-open class=filter-btn aria-pressed=false>NYITVA</button>
+<button type=button id=lang-toggle class=filter-btn>EN</button>
+</div>
+<span id=search-status class=sr-only aria-live=polite></span>
+</div>
+<button class="icon-btn menu-trigger" onclick='openOverlay("about-overlay",this)' aria-haspopup=dialog aria-expanded=false aria-label="Hogyan működik leírás megnyitása">☰</button>
+</header>
+<main id=map tabindex=-1 aria-label="Interaktív fürdőtérkép"></main>
+<button class=legend-fab onclick='openOverlay("legend-overlay",this)' aria-haspopup=dialog aria-expanded=false aria-label="Jelmagyarázat megnyitása">
+<svg viewBox="0 0 100 100" width=100% height=100% aria-hidden=true>
+<polygon points="50,6 94,88 6,88" fill=#ffffff stroke=#000000 stroke-width=8 stroke-linejoin=miter />
+<text x=50 y=68 font-family="'Helvetica Neue', Arial, sans-serif" font-size=38 font-weight=900 fill=#000000 text-anchor=middle>?</text>
+</svg>
+</button>
+<section id=bath-sheet class=bottom-sheet role=dialog aria-modal=false aria-hidden=true tabindex=-1 aria-label="Fürdő részletei">
+</section>
+<div id=legend-overlay class=overlay role=dialog aria-modal=true aria-hidden=true tabindex=-1 aria-labelledby=legend-title>
+<div class=overlay-card>
+<button class=close-btn onclick='closeOverlay("legend-overlay")' aria-label="Jelmagyarázat bezárása">×</button>
+<h2 id=legend-title class=legend-main-title>FÜRDŐK JELÖLÉSE</h2>
+<p id=legend-description class=legend-description>
+A térképen látható egyedi geometriai formájú ikonok a fürdők felnőtt napijegyeinek árait jelzik, ez alapján lettek kategóriákba rendezve. Az alábbi lista mutatja az egyes formákhoz tartozó ársávokat.
+</p>
+<div id=legend-items class=legend-grid></div>
+</div>
+</div>
+<div id=about-overlay class=overlay role=dialog aria-modal=true aria-hidden=true tabindex=-1 aria-labelledby=about-title>
+<div class=overlay-card>
+<button class=close-btn onclick='closeOverlay("about-overlay")' aria-label="Leírás bezárása">×</button>
+<div id=about-overlay-content></div>
+</div>
+</div>
+<div id=list-overlay class=overlay role=dialog aria-modal=true aria-hidden=true tabindex=-1 aria-labelledby=list-title>
+<div class=overlay-card>
+<button class=close-btn onclick='closeOverlay("list-overlay")' aria-label="Lista bezárása">×</button>
+<h2 id=list-title class=legend-main-title>FÜRDŐK LISTÁJA</h2>
+<div id=baths-list-container class=baths-scroll-list></div>
+</div>
+</div>
+<div id=cookie-banner class=cookie-banner role=dialog aria-live=polite aria-labelledby=cookie-title>
+<h3 id=cookie-title class=cookie-title>SÜTIK KEZELÉSE</h3>
+<p id=cookie-text class=cookie-text>
+Az oldal nem kezel semmilyen követő vagy analitikai sütit (cookie-t). Kizárólag azokat a funkcionális sütiket használjuk, amelyek a térkép és a kereső működéséhez szükségesek. A külső szolgáltatók (Google Maps, Booking, Airbnb) saját sütiket használhatnak az átirányítás után, amelyek teljesen függetlenek ettől az oldaltól.
+</p>
+<button id=btn-cookie-accept class=filter-btn type=button>ELFOGADOM</button>
+</div>
+<script src=https://unpkg.com/leaflet@1.9.4/dist/leaflet.js></script>
+<script src=app.js></script>
+<script src=search.js></script>
+</body>
+</html>
