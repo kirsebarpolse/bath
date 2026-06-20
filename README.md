@@ -1,5 +1,3 @@
-![Magyar Gyógyfürdők Térkép](assets/social-preview.png)
-
 # Magyar gyógyfürdő térkép
 
 Fedezd fel Magyarország összes gyógyfürdőjét egyetlen letisztult, interaktív térképen – keresővel, árszűrővel, tájegységenkénti böngészéssel és kétnyelvű felülettel.
