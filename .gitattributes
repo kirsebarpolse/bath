@@ -11,8 +11,10 @@
 *.html         linguist-language=HTML
 *.css          linguist-language=CSS
 *.js           linguist-language=JavaScript
-*.json         linguist-detectable=true
-*.geojson      linguist-language=JSON linguist-detectable=true
+
+# A sima JSON fájlok maradjanak érzékelhetőek (alapértelmezett)
+# Csak a nagy GeoJSON fájlt zárjuk ki, hogy ne torzítsa a statisztikát
+*.geojson      linguist-detectable=false
 
 # -------------------------------------------------------------------
 #  KÜLSŐ FÜGGŐSÉGEK (CDN-EK) – a HTML-ben behívva
@@ -32,7 +34,7 @@ README.md      linguist-documentation=true
 .gitignore     linguist-documentation=true
 .gitattributes linguist-documentation=true
 
-# Gyökérkönyvtár forrásfájljainak kiemelése (ne legyenek „vendor” jelölésűek)
+# Gyökérkönyvtár forrásfájljainak kiemelése
 index.html     linguist-vendored=false
 app.js         linguist-vendored=false
 search.js      linguist-vendored=false
