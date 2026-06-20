@@ -5,21 +5,36 @@
         "steps": [
             {
                 "step": "1",
-                "title": "Keresés a térképen",
-                "desc": "Görgess a térképen, és kattints bármelyik fürdő ikonjára – megjelenik a neve, ára, leírása és gyorslinkek (útvonalterv, Booking, Airbnb). A keresőmezőbe fürdőnevet vagy tájegységet is beírhatsz."
+                "title": "Böngészés a térképen",
+                "desc": "Görgess a térképen, és kattints bármelyik fürdő ikonjára – megjelenik a neve, ára és leírása."
             },
             {
                 "step": "2",
-                "title": "Árszűrés",
-                "desc": "A <span class=\"material-symbols-outlined\">tune</span> ikonnal nyisd meg az árszűrőt, ahol csúszkával vagy gyorsgombokkal (pl. 2–4000 Ft) szűkítheted a találatokat. A „SZŰRŐ TÖRLÉSE” gombbal visszaállítható."
+                "title": "Keresőmező",
+                "desc": "A keresőmezőbe fürdőnevet vagy tájegységet is beírhatsz a gyors találathoz."
             },
             {
                 "step": "3",
-                "title": "Nyelvváltás, lista és mobil használat",
-                "desc": "Az EN/HU gombbal nyelvet válthatsz. A „MAGYAR GYÓGYFÜRDŐK” feliratra kattintva teljes listát kapsz, a ? ikonnal jelmagyarázatot nyithatsz. Mobilon a MENU gomb mögött éred el az összes funkciót. Adatlap bezárása: × gomb, ESC, vagy térképre kattintás."
+                "title": "Gyorslinkek",
+                "desc": "A fürdő adatlapján gyorslinkeket találsz: útvonalterv, Booking és Airbnb."
             },
             {
                 "step": "4",
+                "title": "Árszűrés",
+                "desc": "A ⚙ ikonnal nyisd meg az árszűrőt, ahol csúszkával vagy gyorsgombokkal (pl. 2–4000 Ft) szűkítheted a találatokat. A „SZŰRŐ TÖRLÉSE” gombbal visszaállítható."
+            },
+            {
+                "step": "5",
+                "title": "Nyelvváltás és lista",
+                "desc": "Az EN/HU gombbal nyelvet válthatsz. A „MAGYAR GYÓGYFÜRDŐK” feliratra kattintva teljes listát kapsz, a ? ikonnal pedig jelmagyarázatot nyithatsz."
+            },
+            {
+                "step": "6",
+                "title": "Mobil használat és bezárás",
+                "desc": "Telefonon a MENU gomb mögött éred el az összes funkciót. Az adatlapot a × gombbal, az ESC billentyűvel, vagy a térképre kattintva zárhatod be."
+            },
+            {
+                "step": "7",
                 "title": "Sütik",
                 "desc": "Az oldal kizárólag funkcionális sütiket használ. Külső féltől származó sütik csak akkor kerülnek elhelyezésre, ha a linkekre kattintva átnavigálsz egy másik oldalra."
             }
@@ -31,21 +46,36 @@
         "steps": [
             {
                 "step": "1",
-                "title": "Search on the Map",
-                "desc": "Scroll the map and click any bath icon to see its name, price, description, and quick links (route planner, Booking, Airbnb). You can also type a bath name or region into the search field."
+                "title": "Browse the Map",
+                "desc": "Scroll the map and click any bath icon to see its name, price, and description."
             },
             {
                 "step": "2",
-                "title": "Price Filter",
-                "desc": "Click the <span class=\"material-symbols-outlined\">tune</span> icon to open the price filter, where you can narrow results using a slider or quick buttons (e.g. 2–4000 Ft). Use the 'CLEAR FILTER' button to reset."
+                "title": "Search Field",
+                "desc": "You can also type a bath name or region into the search field for quick results."
             },
             {
                 "step": "3",
-                "title": "Language, List & Mobile Use",
-                "desc": "Use the EN/HU button to switch languages. Click 'MAGYAR GYÓGYFÜRDŐK' for the full list, and the ? icon for the legend. On mobile, all features are accessible via the MENU button. Close info panels: × button, ESC key, or click the map."
+                "title": "Quick Links",
+                "desc": "On the bath's info sheet you'll find quick links: route planner, Booking, and Airbnb."
             },
             {
                 "step": "4",
+                "title": "Price Filter",
+                "desc": "Click the ⚙ icon to open the price filter, where you can narrow results using a slider or quick buttons (e.g. 2–4000 Ft). Use the 'CLEAR FILTER' button to reset."
+            },
+            {
+                "step": "5",
+                "title": "Language & List",
+                "desc": "Use the EN/HU button to switch languages. Click 'MAGYAR GYÓGYFÜRDŐK' for the full list, and the ? icon for the legend."
+            },
+            {
+                "step": "6",
+                "title": "Mobile Use & Closing",
+                "desc": "On mobile, all features are accessible via the MENU button. Close info sheets with the × button, ESC key, or by clicking the map."
+            },
+            {
+                "step": "7",
                 "title": "Cookies",
                 "desc": "This site uses only functional cookies. Third-party cookies are only placed when you click a link and navigate to an external site."
             }
