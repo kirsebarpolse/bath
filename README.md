@@ -1,3 +1,69 @@
+# Magyar Gyógyfürdők Térkép
+
+Interaktív, brutál stílusú webalkalmazás, amely Magyarország gyógyfürdőit jeleníti meg egy letisztult térképen.
+Keresővel, árszűrővel, tájegység szerinti szűréssel és kétnyelvű (magyar/angol) felülettel segíti a felhasználót a megfelelő fürdő megtalálásában.
+
+## Funkciók
+
+- **Fürdő keresése** – gépelés közben azonnali javaslatok fürdőnevekre és tájegységekre, akár elgépelés esetén is
+- **Ár szerinti szűrés** – dupla csúszkás árszűrő, előre definiált gyorsgombokkal (0–2000 Ft, 2000–4000 Ft stb.)
+- **Vizuális kategóriák** – az ársávokhoz egyedi geometrikus ikonok tartoznak, így egy pillantással átlátható a fürdők árkategóriája
+- **Fürdőlista** – az aktív szűréseknek megfelelő fürdők listája névvel és felnőtt belépőjeggyel
+- **Részletes adatlap** – leírás, pontos ár, link az árlistához és a hivatalos honlaphoz, valamint közvetlen gombok útvonaltervhez (Google Térkép) és szálláskereséshez (Booking, Airbnb)
+- **Tájegység alapú szűrés** – a kiválasztott tájegység középpontjától 60 km-es körzetben mutatja a fürdőket (pl. Nyírség, Balaton-felvidék)
+- **Kétnyelvű felület** – a teljes alkalmazás magyarul és angolul is használható, egy gombnyomással váltható
+- **Reszponzív és akadálymentes** – mobilbarát menü, billentyűzetről kezelhető modálok, képernyőolvasó-támogatás
+
+## Technológia
+
+- **Térkép**: Leaflet + CartoDB Light alaptérkép
+- **Frontend**: HTML5, CSS3 (brutál stílus), vanilla JavaScript (nincs keretrendszer)
+- **Adatok**: GeoJSON formátum, egyedi ikonokkal és tulajdonságokkal
+- **Nyelvek**: teljes körű i18n magyar és angol nyelven
+
+## Technikai összefoglaló
+
+Az alkalmazás egyetlen statikus weblap, nincs build folyamat vagy szerveroldali függőség. Minden logika a böngészőben fut.
+
+- **Adatbetöltés**: a fürdők GeoJSON adatai, a tájegységek középpontjai, az ikondefiníciók és a többnyelvű feliratok statikus JSON fájlokból töltődnek be.
+- **Térkép megjelenítése**: a Leaflet rajzolja ki az alaptérképet és az egyedi divIcon markereket, előre generált SVG ikonokkal. Minden marker egy globális tömbben tárolódik a gyors szűrés érdekében.
+- **Keresés és szűrés**: a search.js végzi a valós idejű szöveges keresést, Levenshtein-távolság alapú tűréssel az elgépelésekre. A dupla árcsúszka egy globális szűrőállapotot frissít, a markereket a filterMap() kapcsolja ki/be.
+- **Tájegység-szűrés**: egy tájegység kiválasztásakor a program kiszámítja a távolságot a középpontjától, és a 60 km-en belüli markereket jeleníti meg (a többi aktív szűrővel kombinálva).
+- **UI komponensek**: minden overlay (keresési javaslatok, árszűrő, jelmagyarázat, fürdő adatlap, listanézet, "Hogyan működik") egyedi építésű modál, natív JavaScript focus kezeléssel és ARIA attribútumokkal.
+- **Reszponzív dizájn**: CSS media query-k igazítják az elrendezést asztali, táblagép és mobil nézethez; a fejléc kis képernyőn oldalról beúszó panellé alakul.
+
+A kód aktuális állapota: 2026-06-20 – minden alapvető funkció megvalósítva és tesztelve modern böngészőkben.
+
+
+
+## Adatforrások
+
+A fürdők alapadatai a termalonline.hu gyűjtéséből származnak, egy Google My Maps térképről archiválva:
+
+- Archivált termalonline cikk: Magyarország gyógyfürdő térkép (2025-08-06-i állapot)  
+  https://web.archive.org/web/20250806111746/https://termalonline.hu/termal-hirek/magyarorszag-gyogyfurdo-terkep
+- Eredeti Google My Maps térkép: Magyarország gyógyfürdői  
+  https://www.google.com/maps/d/viewer?mid=1hDSW7i4zLmSfXZEGWfTAxNX9j2P_veis&femb=1&ll=47.05333882719781%2C19.39560550000002&z=8
+
+A tájegységek lehatárolása a turaoldal.hu felosztásán alapul (archivált):  
+https://web.archive.org/web/20230605011353/https://turaoldal.hu/?t=magyarorszag-tajegysegei
+
+A tájegységek középpontjai a regional-centers.json fájlban találhatók.
+
+## Használat
+
+1. Klónozd a repót vagy töltsd le a fájlokat.
+2. Nyisd meg az index.html fájlt egy böngészőben (nincs szükség webszerverre).
+3. Használd a keresőt, az árszűrő csúszkáit, és kattints a fürdőkre a részletekért.
+
+## Közreműködés
+
+Ha hibát találsz, vagy új funkciót javasolnál, nyiss egy Issue-t, vagy küldj Pull Request-et.
+Az adatok frissítése a baths.geojson fájl módosításával lehetséges.
+
+
+
+
 # Hungarian Thermal Baths Map
 
 An interactive, brutalist-style web application that displays Hungary's thermal baths on a clean, easy-to-use map.
@@ -33,18 +99,6 @@ The application is a single-page static web app with no build step or server-sid
 - **Responsive design**: CSS media queries adapt the layout for desktop, tablet, and mobile; the header becomes a sliding side panel on small screens.
 
 Current code status: 2026-06-20 – all core features implemented and tested in modern browsers.
-
-## Project Structure
-
-├── index.html # Main HTML structure
-├── style.css # Brutalist styles, responsive breakpoints
-├── app.js # Map initialization, interactions, data loading
-├── search.js # Search, region filter, price filter logic
-├── baths.geojson # Bath data (name, price, description, coordinates, icon)
-├── regional-centers.json # Region center points for 60 km radius filtering
-├── icon-types.json # Icon categories and price ranges
-├── how-it-works.json # "How it works" description in two languages
-└── README.md
 
 
 
