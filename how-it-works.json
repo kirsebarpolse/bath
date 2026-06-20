@@ -6,7 +6,7 @@
             { "step": "1", "title": "Keresés és gyorsszűrők", "desc": "Írd be a fürdő, település vagy tájegység nevét az egyvonalas felső sávba, vagy szűkíts a gyorsszűrőkkel (ár, nyitvatartás, saját pozíció)." },
             { "step": "2", "title": "Ársávok és jelmagyarázat", "desc": "A fürdőket ársávok alapján egyedi geometriai alakzatok jelölik a térképen. A bal alsó négyzet alakú gombbal nyithatod meg a jelmagyarázatot." },
             { "step": "3", "title": "Részletes kártyák", "desc": "Kattints egy fürdő ikonjára vagy a listaelemre a pontos felnőtt árak, a hivatalos honlap, az útvonalterv és a szálláskereső linkek eléréséhez." },
-            { "step": "4", "title": "Akadálymentes vezérlés", "desc": "Böngéssz billentyűzettel (Tab, Enter)! A felugró ablakokat a jobb oldalon elhelyezett jól látható fekete 'X' gombokkal vagy az Escape gombbal zárhatod be." }
+            { "step": "4", "title": "Akadálymentes vezérlés", "desc": "Böngéssz billentyűzettel (Tab, Enter)! A felugró ablakokat a jobb oldalon elhelyezett jól látható fekete 'X' gombokkal vagy az Escape gombbal zárhatod be." },
                     { "step": "5", "title": "Akadálymentes vezérlés", "desc": "Böngéssz billentyűzettel (Tab, Enter)! A felugró ablakokat a jobb oldalon elhelyezett jól látható fekete 'X' gombokkal vagy az Escape gombbal zárhatod be." }
         ]
     },
