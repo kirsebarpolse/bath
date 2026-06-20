@@ -6,22 +6,22 @@
             {
                 "step": "1",
                 "title": "Keresés a térképen",
-                "desc": "Görgess a térképen, és kattints bármelyik <strong>fürdő ikonjára</strong> – megjelenik a neve, ára, leírása és gyorslinkek (<strong>útvonalterv</strong>, <strong>Booking</strong>, <strong>Airbnb</strong>). A <strong>keresőmezőbe</strong> fürdőnevet vagy tájegységet is beírhatsz."
+                "desc": "Görgess a térképen, és kattints bármelyik fürdő ikonjára – megjelenik a neve, ára, leírása és gyorslinkek (útvonalterv, Booking, Airbnb). A keresőmezőbe fürdőnevet vagy tájegységet is beírhatsz."
             },
             {
                 "step": "2",
                 "title": "Árszűrés",
-                "desc": "A <strong><span class=\"material-symbols-outlined\">tune</span></strong> ikonnal nyisd meg az árszűrőt, ahol csúszkával vagy <strong>gyorsgombokkal</strong> (pl. <strong>2–4000 Ft</strong>) szűkítheted a találatokat. A <strong>„SZŰRŐ TÖRLÉSE”</strong> gombbal visszaállítható."
+                "desc": "A <span class=\"material-symbols-outlined\">tune</span> ikonnal nyisd meg az árszűrőt, ahol csúszkával vagy gyorsgombokkal (pl. 2–4000 Ft) szűkítheted a találatokat. A „SZŰRŐ TÖRLÉSE” gombbal visszaállítható."
             },
             {
                 "step": "3",
                 "title": "Nyelvváltás, lista és mobil használat",
-                "desc": "Az <strong>EN/HU</strong> gombbal nyelvet válthatsz. A <strong>„MAGYAR GYÓGYFÜRDŐK”</strong> feliratra kattintva teljes listát kapsz, a <strong>?</strong> ikonnal jelmagyarázatot nyithatsz. Mobilon a <strong>MENU</strong> gomb mögött éred el az összes funkciót. Adatlap bezárása: <strong>×</strong> gomb, <strong>ESC</strong> billentyű, vagy térképre kattintás."
+                "desc": "Az EN/HU gombbal nyelvet válthatsz. A „MAGYAR GYÓGYFÜRDŐK” feliratra kattintva teljes listát kapsz, a ? ikonnal jelmagyarázatot nyithatsz. Mobilon a MENU gomb mögött éred el az összes funkciót. Adatlap bezárása: × gomb, ESC, vagy térképre kattintás."
             },
             {
                 "step": "4",
                 "title": "Sütik",
-                "desc": "Az oldal kizárólag funkcionális sütiket használ. Külső féltől származó sütik csak akkor kerülnek elhelyezésre, ha a <strong>linkekre kattintva</strong> átnavigálsz egy másik oldalra."
+                "desc": "Az oldal kizárólag funkcionális sütiket használ. Külső féltől származó sütik csak akkor kerülnek elhelyezésre, ha a linkekre kattintva átnavigálsz egy másik oldalra."
             }
         ]
     },
@@ -32,22 +32,22 @@
             {
                 "step": "1",
                 "title": "Search on the Map",
-                "desc": "Scroll the map and click any <strong>bath icon</strong> to see its name, price, description, and quick links (<strong>route planner</strong>, <strong>Booking</strong>, <strong>Airbnb</strong>). You can also type a bath name or region into the <strong>search field</strong>."
+                "desc": "Scroll the map and click any bath icon to see its name, price, description, and quick links (route planner, Booking, Airbnb). You can also type a bath name or region into the search field."
             },
             {
                 "step": "2",
                 "title": "Price Filter",
-                "desc": "Click the <strong><span class=\"material-symbols-outlined\">tune</span></strong> icon to open the price filter, where you can narrow results using a slider or <strong>quick buttons</strong> (e.g. <strong>2–4000 Ft</strong>). Use the <strong>'CLEAR FILTER'</strong> button to reset."
+                "desc": "Click the <span class=\"material-symbols-outlined\">tune</span> icon to open the price filter, where you can narrow results using a slider or quick buttons (e.g. 2–4000 Ft). Use the 'CLEAR FILTER' button to reset."
             },
             {
                 "step": "3",
                 "title": "Language, List & Mobile Use",
-                "desc": "Use the <strong>EN/HU</strong> button to switch languages. Click <strong>'MAGYAR GYÓGYFÜRDŐK'</strong> for the full list, and the <strong>?</strong> icon for the legend. On mobile, all features are accessible via the <strong>MENU</strong> button. Close info panels: <strong>×</strong> button, <strong>ESC</strong> key, or click the map."
+                "desc": "Use the EN/HU button to switch languages. Click 'MAGYAR GYÓGYFÜRDŐK' for the full list, and the ? icon for the legend. On mobile, all features are accessible via the MENU button. Close info panels: × button, ESC key, or click the map."
             },
             {
                 "step": "4",
                 "title": "Cookies",
-                "desc": "This site uses only functional cookies. Third-party cookies are only placed when you <strong>click a link</strong> and navigate to an external site."
+                "desc": "This site uses only functional cookies. Third-party cookies are only placed when you click a link and navigate to an external site."
             }
         ]
     }
