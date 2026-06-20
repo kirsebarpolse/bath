@@ -1,6 +1,6 @@
-# Magyar Gyógyfürdők Térkép
+# Magyar gyógyfürdő térkép
 
-Interaktív, brutál stílusú webalkalmazás, amely Magyarország gyógyfürdőit jeleníti meg egy letisztult térképen.
+Interaktív térkép, amely Magyarország gyógyfürdőit jeleníti meg egy letisztult térképen.
 Keresővel, árszűrővel, tájegység szerinti szűréssel és kétnyelvű (magyar/angol) felülettel segíti a felhasználót a megfelelő fürdő megtalálásában.
 
 ## Funkciók
