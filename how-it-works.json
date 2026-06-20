@@ -11,7 +11,7 @@
             {
                 "step": "2",
                 "title": "Árszűrés",
-                "desc": "A ⚙️ ikonnal nyisd meg az árszűrőt, ahol csúszkával vagy gyorsgombokkal (pl. 2–4000 Ft) szűkítheted a találatokat. A „SZŰRŐ TÖRLÉSE” gombbal visszaállítható."
+                "desc": "A <span class=\"material-symbols-outlined\">tune</span> ikonnal nyisd meg az árszűrőt, ahol csúszkával vagy gyorsgombokkal (pl. 2–4000 Ft) szűkítheted a találatokat. A „SZŰRŐ TÖRLÉSE” gombbal visszaállítható."
             },
             {
                 "step": "3",
@@ -37,7 +37,7 @@
             {
                 "step": "2",
                 "title": "Price Filter",
-                "desc": "Click the ⚙️ icon to open the price filter, where you can narrow results using a slider or quick buttons (e.g. 2–4000 Ft). Use the 'CLEAR FILTER' button to reset."
+                "desc": "Click the <span class=\"material-symbols-outlined\">tune</span> icon to open the price filter, where you can narrow results using a slider or quick buttons (e.g. 2–4000 Ft). Use the 'CLEAR FILTER' button to reset."
             },
             {
                 "step": "3",
