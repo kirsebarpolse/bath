@@ -3,21 +3,52 @@
         "title": "HOGYAN MŰKÖDIK?",
         "introduction": "A BATH MAP egy interaktív, akadálymentesített térkép, amely segít gyorsan átlátni a magyarországi fürdők árait, elhelyezkedését és távolságát.",
         "steps": [
-            { "step": "1", "title": "Keresés és gyorsszűrők", "desc": "Írd be a fürdő, település vagy tájegység nevét az egyvonalas felső sávba, vagy szűkíts a gyorsszűrőkkel (ár, nyitvatartás, saját pozíció)." },
-            { "step": "2", "title": "Ársávok és jelmagyarázat", "desc": "A fürdőket ársávok alapján egyedi geometriai alakzatok jelölik a térképen. A bal alsó négyzet alakú gombbal nyithatod meg a jelmagyarázatot." },
-            { "step": "3", "title": "Részletes kártyák", "desc": "Kattints egy fürdő ikonjára vagy a listaelemre a pontos felnőtt árak, a hivatalos honlap, az útvonalterv és a szálláskereső linkek eléréséhez." },
-            { "step": "4", "title": "Akadálymentes vezérlés", "desc": "Böngéssz billentyűzettel (Tab, Enter)! A felugró ablakokat a jobb oldalon elhelyezett jól látható fekete 'X' gombokkal vagy az Escape gombbal zárhatod be." },
-                    { "step": "5", "title": "Akadálymentes vezérlés", "desc": "Böngéssz billentyűzettel (Tab, Enter)! A felugró ablakokat a jobb oldalon elhelyezett jól látható fekete 'X' gombokkal vagy az Escape gombbal zárhatod be." }
+            {
+                "step": "1",
+                "title": "Keresés a térképen",
+                "desc": "Görgess a térképen, és kattints bármelyik fürdő ikonjára – megjelenik a neve, ára, leírása és gyorslinkek (útvonalterv, Booking, Airbnb). A keresőmezőbe fürdőnevet vagy tájegységet is beírhatsz."
+            },
+            {
+                "step": "2",
+                "title": "Árszűrés",
+                "desc": "A ⚙️ ikonnal nyisd meg az árszűrőt, ahol csúszkával vagy gyorsgombokkal (pl. 2–4000 Ft) szűkítheted a találatokat. A „SZŰRŐ TÖRLÉSE” gombbal visszaállítható."
+            },
+            {
+                "step": "3",
+                "title": "Nyelvváltás, lista és mobil használat",
+                "desc": "Az EN/HU gombbal nyelvet válthatsz. A „MAGYAR GYÓGYFÜRDŐK” feliratra kattintva teljes listát kapsz, a ? ikonnal jelmagyarázatot nyithatsz. Mobilon a MENU gomb mögött éred el az összes funkciót. Adatlap bezárása: × gomb, ESC, vagy térképre kattintás."
+            },
+            {
+                "step": "4",
+                "title": "Sütik",
+                "desc": "Az oldal kizárólag funkcionális sütiket használ. Külső féltől származó sütik csak akkor kerülnek elhelyezésre, ha a linkekre kattintva átnavigálsz egy másik oldalra."
+            }
         ]
     },
     "en": {
         "title": "HOW IT WORKS",
-        "introduction": "BATH MAP is an interactive, accessible map that helps you easily check the prices, locations, and distances of Hungarian thermal baths.",
+        "introduction": "BATH MAP is an interactive, accessible map that helps you quickly check the prices, locations, and distances of Hungarian thermal baths.",
         "steps": [
-            { "step": "1", "title": "Search & Quick Filters", "desc": "Type the name of a bath, town, or geographical region into the single-row search bar, or narrow results with quick filters (price, opening status, proximity)." },
-            { "step": "2", "title": "Price Categories & Legend", "desc": "Baths are marked with unique geometric icons on the map based on price. Use the square button in the bottom-left corner to open the detailed legend." },
-            { "step": "3", "title": "Detailed Sheets", "desc": "Click a bath icon or a list item to view exact adult ticket prices, official websites, direct Google route planning, and local Booking/Airbnb links." },
-            { "step": "4", "title": "Accessible Controls", "desc": "Navigate using your keyboard (Tab, Enter) and close modal overlays easily using the black 'X' buttons on the right or the Escape key." }
+            {
+                "step": "1",
+                "title": "Search on the Map",
+                "desc": "Scroll the map and click any bath icon to see its name, price, description, and quick links (route planner, Booking, Airbnb). You can also type a bath name or region into the search field."
+            },
+            {
+                "step": "2",
+                "title": "Price Filter",
+                "desc": "Click the ⚙️ icon to open the price filter, where you can narrow results using a slider or quick buttons (e.g. 2–4000 Ft). Use the 'CLEAR FILTER' button to reset."
+            },
+            {
+                "step": "3",
+                "title": "Language, List & Mobile Use",
+                "desc": "Use the EN/HU button to switch languages. Click 'MAGYAR GYÓGYFÜRDŐK' for the full list, and the ? icon for the legend. On mobile, all features are accessible via the MENU button. Close info panels: × button, ESC key, or click the map."
+            },
+            {
+                "step": "4",
+                "title": "Cookies",
+                "desc": "This site uses only functional cookies. Third-party cookies are only placed when you click a link and navigate to an external site."
+            }
         ]
     }
 }
