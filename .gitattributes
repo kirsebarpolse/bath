@@ -1,30 +1,14 @@
-# ============================================================
-#  Magyar Gyógyfürdők Térkép – git attribútumok
-# ============================================================
-
 # Automatikus sortörés normalizálása
 * text=auto
 
-# -------------------------------------------------------------------
-#  NYELVI BESOROLÁSOK
-# -------------------------------------------------------------------
+# NYELVI BESOROLÁSOK
 *.html         linguist-language=HTML
 *.css          linguist-language=CSS
 *.js           linguist-language=JavaScript
-
-# A sima JSON fájlok maradjanak érzékelhetőek (alapértelmezett)
-# Csak a nagy GeoJSON fájlt zárjuk ki, hogy ne torzítsa a statisztikát
+*.json         linguist-detectable=true
 *.geojson      linguist-detectable=false
 
-# -------------------------------------------------------------------
-#  KÜLSŐ FÜGGŐSÉGEK (CDN-EK) – a HTML-ben behívva
-# -------------------------------------------------------------------
-# Térkép motor       : Leaflet 1.9.4 (unpkg CDN)
-# Alaptérkép csempék  : CartoDB Light (basemaps.cartocdn.com)
-# Ikonkészlet         : Google Material Symbols (fonts.googleapis.com)
-# -------------------------------------------------------------------
-
-# Bináris fájlok kizárása a diff-ből
+# Bináris fájlok
 *.png          binary
 *.jpg          binary
 *.svg          binary
@@ -34,7 +18,7 @@ README.md      linguist-documentation=true
 .gitignore     linguist-documentation=true
 .gitattributes linguist-documentation=true
 
-# Gyökérkönyvtár forrásfájljainak kiemelése
+# Forrásfájlok kiemelése
 index.html     linguist-vendored=false
 app.js         linguist-vendored=false
 search.js      linguist-vendored=false
