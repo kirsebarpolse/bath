@@ -21,20 +21,30 @@
             {
                 "step": "4",
                 "title": "Árszűrő",
-                "desc": "A <span class=\"material-symbols-outlined\">tune</span> (ÁR SZŰRŐ) gombbal megnyithatod a csúszkás árszűrőt, ahol gyorsgombokkal (pl. 2–3 ezer Ft vagy 6000+ Ft) is szűkítheted a kört. A „SZŰRŐ TÖRLÉSE” gombbal bármikor visszaállíthatod az alaphelyzetet."
+                "desc": "<span class=\"material-symbols-outlined\">tune</span> – Ez a jel megnyitja a csúszkás árszűrőt, ahol gyorsgombokkal (pl. 2–3 ezer Ft vagy 6000+ Ft) is szűkítheted a kört. A „SZŰRŐ TÖRLÉSE” gombbal bármikor visszaállíthatod az alaphelyzetet."
             },
             {
                 "step": "5",
-                "title": "Nyelv, lista és csoportosítás",
-                "desc": "Az EN/HU gombbal nyelvet válthatsz. A <span class=\"material-symbols-outlined\">format_list_bulleted</span> (FÜRDŐ LISTA) gombbal megtekintheted a szűrt fürdők listáját, míg a <span class=\"material-symbols-outlined\">workspaces</span> gombra kattintva ki- és bekapcsolhatod a térképen lévő közeli ikonok csoportosítását (klaszterezését)."
+                "title": "Fürdők listája",
+                "desc": "<span class=\"material-symbols-outlined\">format_list_bulleted</span> – Ez a jel megnyitja a szűrt fürdők tételes, áttekinthető listáját."
             },
             {
                 "step": "6",
+                "title": "Csoportosítás",
+                "desc": "<span class=\"material-symbols-outlined\">workspaces</span> – Ez a jel ki- és bekapcsolja a térképen egymáshoz közel eső fürdők ikonjainak összevonását (klaszterezését)."
+            },
+            {
+                "step": "7",
+                "title": "Nyelvváltás",
+                "desc": "Az EN/HU gombbal bármikor átválthatod az oldal nyelvét magyar vagy angol változatra."
+            },
+            {
+                "step": "8",
                 "title": "Mobil használat és bezárás",
                 "desc": "Telefonon a fejlécben lévő MENU gomb alatt érhető el az összes beállítás. Az adatlapot a × gombbal, az ESC billentyűvel, a sötét hátteres területre vagy közvetlenül a térképre kattintva zárhatod be."
             },
             {
-                "step": "7",
+                "step": "9",
                 "title": "Sütik",
                 "desc": "Az oldal kizárólag a működéshez szükséges funkcionális sütiket (például a nyelvi beállítást és az elfogadási státuszt) kezeli. Külső szolgáltatók (Google, Booking, Airbnb) saját sütiket helyezhetnek el, miután átnavigáltál az oldalaikra."
             }
@@ -62,20 +72,30 @@
             {
                 "step": "4",
                 "title": "Price Filter",
-                "desc": "Click the <span class=\"material-symbols-outlined\">tune</span> (PRICE FILTER) button to open the range filter. You can narrow down results using the slider or preset buttons (e.g., 2–3k HUF or 6000+ HUF). Use the 'RESET FILTER' button to clear your choices."
+                "desc": "<span class=\"material-symbols-outlined\">tune</span> – This symbol opens the range filter, where you can narrow down results using the slider or preset buttons (e.g., 2–3k HUF or 6000+ HUF). Use the 'RESET FILTER' button to clear your choices."
             },
             {
                 "step": "5",
-                "title": "Language, List & Clustering",
-                "desc": "Use the EN/HU button to switch languages. Click the <span class=\"material-symbols-outlined\">format_list_bulleted</span> (LIST OF BATHS) button to see a structured list of filtered locations, and use the <span class=\"material-symbols-outlined\">workspaces</span> button to toggle the grouping (clustering) of nearby icons on the map."
+                "title": "List of Baths",
+                "desc": "<span class=\"material-symbols-outlined\">format_list_bulleted</span> – This symbol opens a structured list of all currently filtered baths."
             },
             {
                 "step": "6",
+                "title": "Clustering",
+                "desc": "<span class=\"material-symbols-outlined\">workspaces</span> – This symbol toggles the grouping (clustering) of nearby bath icons on the map on and off."
+            },
+            {
+                "step": "7",
+                "title": "Language Selection",
+                "desc": "Use the EN/HU button to switch the website language between Hungarian and English at any time."
+            },
+            {
+                "step": "8",
                 "title": "Mobile Use & Closing",
                 "desc": "On mobile devices, access all options via the MENU button in the header. Close info sheets using the × button, the ESC key, by clicking the backdrop overlay, or by clicking anywhere on the map."
             },
             {
-                "step": "7",
+                "step": "9",
                 "title": "Cookies",
                 "desc": "This site uses only necessary functional cookies (such as language preference and consent status). Third-party cookies from Google, Booking, or Airbnb may be loaded once you navigate to their respective external sites."
             }
