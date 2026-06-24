@@ -6,37 +6,37 @@
             {
                 "step": "1",
                 "title": "Böngészés a térképen",
-                "desc": "Görgess a térképen, és kattints bármelyik fürdő ikonjára – megjelenik a neve, ára és leírása."
+                "desc": "Görgess a térképen, és kattints bármelyik fürdő ikonjára – megjelenik a neve, a felnőtt belépő ára, a leírása, valamint a hivatalos linkek."
             },
             {
                 "step": "2",
                 "title": "Keresőmező",
-                "desc": "A keresőmezőbe fürdőnevet vagy tájegységet is beírhatsz a gyors találathoz."
+                "desc": "A keresőbe fürdőnevet vagy a leírásokban szereplő kifejezéseket is beírhatsz a gyors találatokért. A funkció asztali és mobil nézetben is elérhető."
             },
             {
                 "step": "3",
-                "title": "Gyorslinkek",
-                "desc": "A fürdő adatlapján gyorslinkeket találsz: útvonalterv, Booking és Airbnb."
+                "title": "Részletes információk és gyorslinkek",
+                "desc": "A fürdő adatlapján megtalálod a részletes árlistát, a hivatalos honlapot, valamint a gyorsgombokat: útvonalterv (Google Maps), Booking és Airbnb szálláskereső."
             },
             {
                 "step": "4",
-                "title": "Árszűrés",
-                "desc": "A <span class=\"material-symbols-outlined\">tune</span> ikonnal nyisd meg az árszűrőt, ahol csúszkával vagy gyorsgombokkal (pl. 2–4000 Ft) szűkítheted a találatokat. A „SZŰRŐ TÖRLÉSE” gombbal visszaállítható."
+                "title": "Árszűrő",
+                "desc": "A <span class=\"material-symbols-outlined\">tune</span> (ÁR SZŰRŐ) gombbal megnyithatod a csúszkás árszűrőt, ahol gyorsgombokkal (pl. 2–3 ezer Ft vagy 6000+ Ft) is szűkítheted a kört. A „SZŰRŐ TÖRLÉSE” gombbal bármikor visszaállíthatod az alaphelyzetet."
             },
             {
                 "step": "5",
-                "title": "Nyelvváltás és lista",
-                "desc": "Az EN/HU gombbal nyelvet válthatsz. A „MAGYAR GYÓGYFÜRDŐK” feliratra kattintva teljes listát kapsz, a ? ikonnal pedig jelmagyarázatot nyithatsz."
+                "title": "Nyelv, lista és csoportosítás",
+                "desc": "Az EN/HU gombbal nyelvet válthatsz. A <span class=\"material-symbols-outlined\">format_list_bulleted</span> (FÜRDŐ LISTA) gombbal megtekintheted a szűrt fürdők listáját, míg a <span class=\"material-symbols-outlined\">workspaces</span> gombra kattintva ki- és bekapcsolhatod a térképen lévő közeli ikonok csoportosítását (klaszterezését)."
             },
             {
                 "step": "6",
                 "title": "Mobil használat és bezárás",
-                "desc": "Telefonon a MENU gomb mögött éred el az összes funkciót. Az adatlapot a × gombbal, az ESC billentyűvel, vagy a térképre kattintva zárhatod be."
+                "desc": "Telefonon a fejlécben lévő MENU gomb alatt érhető el az összes beállítás. Az adatlapot a × gombbal, az ESC billentyűvel, a sötét hátteres területre vagy közvetlenül a térképre kattintva zárhatod be."
             },
             {
                 "step": "7",
                 "title": "Sütik",
-                "desc": "Az oldal kizárólag funkcionális sütiket használ. Külső féltől származó sütik csak akkor kerülnek elhelyezésre, ha a linkekre kattintva átnavigálsz egy másik oldalra."
+                "desc": "Az oldal kizárólag a működéshez szükséges funkcionális sütiket (például a nyelvi beállítást és az elfogadási státuszt) kezeli. Külső szolgáltatók (Google, Booking, Airbnb) saját sütiket helyezhetnek el, miután átnavigáltál az oldalaikra."
             }
         ]
     },
@@ -47,37 +47,37 @@
             {
                 "step": "1",
                 "title": "Browse the Map",
-                "desc": "Scroll the map and click any bath icon to see its name, price, and description."
+                "desc": "Scroll the map and click any bath icon to see its name, adult ticket price, description, and official links."
             },
             {
                 "step": "2",
                 "title": "Search Field",
-                "desc": "You can also type a bath name or region into the search field for quick results."
+                "desc": "Type a bath name or key terms from the description into the search field for fast results. Available on both desktop and mobile layouts."
             },
             {
                 "step": "3",
-                "title": "Quick Links",
-                "desc": "On the bath's info sheet you'll find quick links: route planner, Booking, and Airbnb."
+                "title": "Detailed Info & Quick Links",
+                "desc": "The bath's info sheet displays the detailed price list, official website, and quick action buttons for route planning (Google Maps), Booking, and Airbnb."
             },
             {
                 "step": "4",
                 "title": "Price Filter",
-                "desc": "Click the <span class=\"material-symbols-outlined\">tune</span> icon to open the price filter, where you can narrow results using a slider or quick buttons (e.g. 2–4000 Ft). Use the 'CLEAR FILTER' button to reset."
+                "desc": "Click the <span class=\"material-symbols-outlined\">tune</span> (PRICE FILTER) button to open the range filter. You can narrow down results using the slider or preset buttons (e.g., 2–3k HUF or 6000+ HUF). Use the 'RESET FILTER' button to clear your choices."
             },
             {
                 "step": "5",
-                "title": "Language & List",
-                "desc": "Use the EN/HU button to switch languages. Click 'HUNGARIAN BATHS' for the full list, and the ? icon for the legend."
+                "title": "Language, List & Clustering",
+                "desc": "Use the EN/HU button to switch languages. Click the <span class=\"material-symbols-outlined\">format_list_bulleted</span> (LIST OF BATHS) button to see a structured list of filtered locations, and use the <span class=\"material-symbols-outlined\">workspaces</span> button to toggle the grouping (clustering) of nearby icons on the map."
             },
             {
                 "step": "6",
                 "title": "Mobile Use & Closing",
-                "desc": "On mobile, all features are accessible via the MENU button. Close info sheets with the × button, ESC key, or by clicking the map."
+                "desc": "On mobile devices, access all options via the MENU button in the header. Close info sheets using the × button, the ESC key, by clicking the backdrop overlay, or by clicking anywhere on the map."
             },
             {
                 "step": "7",
                 "title": "Cookies",
-                "desc": "This site uses only functional cookies. Third-party cookies are only placed when you click a link and navigate to an external site."
+                "desc": "This site uses only necessary functional cookies (such as language preference and consent status). Third-party cookies from Google, Booking, or Airbnb may be loaded once you navigate to their respective external sites."
             }
         ]
     }
